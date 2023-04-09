@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Interal">
+      <UniqueIdentifier>{6beb93d8-111b-4193-9450-351c3d3d05bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{d9b74401-831e-45f8-bfee-d68906641edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation">
+      <UniqueIdentifier>{432deb51-a5f6-4b2b-a224-d18711807e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\model">
+      <UniqueIdentifier>{8750a89d-0e35-4b04-b1e7-c98f9b112daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\provider">
+      <UniqueIdentifier>{80278351-749f-47e4-b574-7252b74aacc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="interal\application.cpp">
+      <Filter>Interal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="interal\library.h">
+      <Filter>Interal</Filter>
+    </ClInclude>
+    <ClInclude Include="domain\model\fraction.h">
+      <Filter>domain\model</Filter>
+    </ClInclude>
+    <ClInclude Include="domain\provider\operators_overloaded.h">
+      <Filter>domain\provider</Filter>
+    </ClInclude>
+    <ClInclude Include="presentation\screen.h">
+      <Filter>presentation</Filter>
+    </ClInclude>
+    <ClInclude Include="domain\model\complex.h">
+      <Filter>domain\model</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
